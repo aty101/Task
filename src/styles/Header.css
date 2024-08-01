@@ -62,8 +62,8 @@ nav ul {
     font-size: 30px;
     color: #000011;
    position: relative;
-    top:0;
-    left: 85% ;
+    top:20px;
+    left: 70% ;
     height: auto;
     display: inline-block;
     text-align: end;
