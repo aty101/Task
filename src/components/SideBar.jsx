@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 export function SideBar({ closeSideBar }) {
   return (
     <div className="background" onClick={closeSideBar}>
-      <div>
+      <div className="sideBar" onClick={(event)=>{ event.stopPropagation();}}>
         <div onClick={closeSideBar} className="closeButton">✖</div>
         <ul>
           <li >

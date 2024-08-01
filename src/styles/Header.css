@@ -41,12 +41,12 @@ nav ul {
     width: 100vw;
     height: 100vh;
     background-color: rgba(153, 153, 158, 0.5);
-   
+  
     top: 0;
     left: 0;
    
 }
-.background div{
+.sideBar{
     
     position: absolute;
     right: 0;
@@ -56,13 +56,18 @@ nav ul {
     min-width: 50%;
     background-color: white;
 }
-.background div button{
+.closeButton{
     border: 0;
     background-color: white;
-    font-size: 40px;
+    font-size: 30px;
     color: #000011;
-    width: 100%;
+   position: relative;
+    top:0;
+    left: 85% ;
+    height: auto;
+    display: inline-block;
     text-align: end;
+    cursor: pointer;
 }
 .background ul{
     display: flex;
