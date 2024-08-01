@@ -2,7 +2,7 @@
 export function WebBox(){
     return <>
         <div className="mainSection">
-            <img src="/public/assets/images/image-web-3-desktop.jpg" alt="Web news image"/>
+            <img src="/assets/images/image-web-3-desktop.jpg" alt="Web news image"/>
             <div className="content">
                 <h1>The Bright Future of Web 3.0?</h1>
                 <div>
